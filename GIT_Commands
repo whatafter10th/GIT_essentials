@@ -1,14 +1,20 @@
+GIT Commands:
+------------------------
+
+To clone a Repo onto a working directory in laptop:
 git init
 
+To add all changes to STAGE
 git add .
 
+To commit the staged changes with a message.
 git commit -m 'message....'
 
+To sdee the logs:
 git log
-
-To check the status of changes:
-git status
 
 To create a new branch:
 git checkout -b <<new_branch_name>>
 
+To discard changes in working directory
+git restore <<file>>
