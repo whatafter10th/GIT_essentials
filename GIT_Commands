@@ -6,3 +6,9 @@ git commit -m 'message....'
 
 git log
 
+To check the status of changes:
+git status
+
+To create a new branch:
+git checkout -b <<new_branch_name>>
+
