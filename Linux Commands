@@ -1,0 +1,27 @@
+to display a list of currently set environment variables in terminal:
+printenv
+
+to display the value of any specific environment variable,
+echo $[VARIABLE_NAME]
+Ex: echo $PATH
+echo $JAVA_HOME
+
+a temporary environment variable only lasts until you close the terminal session.
+Assign a temporary environment variable with the export command:
+export [variable_name]=[variable_value]
+export PATH=/Users/test/test_folder:$PATH
+
+to remove an environment variable:
+unset [variable_name]
+
+Permanent environment variables are added to the .bash_profile or csh or zsh file:
+~/.bash-profile
+export [variable_name]=[variable_value]
+Execute the new .bash_profile by either restarting the terminal window or using:
+source ~/.bash-profile
+
+
+
+
+
+
